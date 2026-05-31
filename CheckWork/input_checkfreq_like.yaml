@@ -1,0 +1,29 @@
+model:
+  name: "transformer"
+  num_layers: 24
+  sequence_len: 2048
+  vocab_size: 51200
+  hidden_size: 20480
+  batch_size: 32
+  num_microbatches: 8
+  bytes_per_val: 2
+  scale: 1
+
+parallelism:
+  dp_size: 2
+  pp_size: 2
+  tp_size: 1
+
+num_iterations: 5
+
+wrapper:
+  type: "checkpoint"
+  mode: "checkfreq_like"
+  checkpoint_every_n: 1
+  state_multiplier: 3.0
+  snapshot_overhead_multiplier: 1.0
+  persist_overhead_multiplier: 5.0
+  kickoff_cost_micros: 100
+  # Optional duration overrides (omit to use multiplier-based duration):
+  # snapshot_duration_micros: 100
+  # persist_duration_micros: 500

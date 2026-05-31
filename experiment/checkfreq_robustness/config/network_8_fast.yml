@@ -1,0 +1,5 @@
+# 8 NPUs, FullyConnected — high BW, low latency so comm is minimal and checkpoint overhead is visible
+topology: [ FullyConnected ]
+npus_count: [ 8 ]
+bandwidth: [ 1000 ]
+latency: [ 50.0 ]

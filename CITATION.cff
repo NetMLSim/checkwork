@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use CheckWork in academic work, please cite the APNet '26 paper."
+title: "CheckWork: Enabling Trace-Driven Analysis of Checkpointing Overhead in Distributed ML Training"
+abstract: >
+  CheckWork is an open-source framework that generates checkpoint-aware Chakra
+  execution traces by augmenting synthetic training DAGs (produced by MLSynth)
+  with checkpoint operations. The resulting traces can be replayed in any
+  Chakra-compatible full-stack simulator (e.g. ASTRA-sim 2.0) to study how
+  checkpointing strategies interact with compute, communication, parallelism,
+  topology, and storage --- without requiring access to a physical GPU cluster.
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/eldarhasanov079/checkwork"
+url: "https://github.com/eldarhasanov079/checkwork"
+authors:
+  - family-names: Hasanov
+    given-names: Eldar
+    affiliation: "Imperial College London"
+  - family-names: Sefiane
+    given-names: Adel
+    affiliation: "Imperial College London / NVIDIA"
+  - family-names: Farshin
+    given-names: Alireza
+    affiliation: "NVIDIA"
+  - family-names: Kogias
+    given-names: Marios
+    affiliation: "Imperial College London"
+keywords:
+  - checkpointing
+  - distributed machine learning
+  - chakra execution traces
+  - simulation
+  - ASTRA-sim
+preferred-citation:
+  type: conference-paper
+  title: "CheckWork: Enabling Trace-Driven Analysis of Checkpointing Overhead in Distributed ML Training"
+  authors:
+    - family-names: Hasanov
+      given-names: Eldar
+    - family-names: Sefiane
+      given-names: Adel
+    - family-names: Farshin
+      given-names: Alireza
+    - family-names: Kogias
+      given-names: Marios
+  year: 2026
+  collection-title: "Proceedings of the 10th Asia-Pacific Workshop on Networking (APNet '26)"
+  conference:
+    name: "10th Asia-Pacific Workshop on Networking (APNet '26)"
+    city: Singapore
+    date-start: 2026-08-06
+    date-end: 2026-08-07
+  publisher:
+    name: ACM

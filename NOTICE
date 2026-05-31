@@ -1,0 +1,38 @@
+CheckWork
+Copyright (c) 2026, Eldar Hasanov, Adel Sefiane, Alireza Farshin, Marios Kogias
+and contributors.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this work except in compliance with the License. A copy of the License is
+included at the root of this distribution in the file LICENSE. You may also
+obtain a copy at http://www.apache.org/licenses/LICENSE-2.0.
+
+This product includes and/or builds on software developed at:
+
+  * MLSynth (Apache License 2.0)
+    Copyright (c) 2025, Sefiane et al.; originally released by NVIDIA
+    CORPORATION (https://www.nvidia.com/) and the MLSynth authors.
+    CheckWork extends MLSynth with the CheckpointWrapper component and
+    associated experiment harnesses. See the MLSynth source distribution
+    under CheckWork/ for the original NOTICE file.
+
+  * Chakra Execution Trace project (Apache License 2.0)
+    Copyright (c) MLCommons (https://mlcommons.org/) and the Chakra
+    contributors. Used for the .proto schema and Python utilities that
+    serialise execution traces. See https://github.com/mlcommons/chakra.
+
+  * ASTRA-sim 2.0 (MIT License)
+    Copyright (c) Georgia Institute of Technology, Meta Platforms, Inc.,
+    and other ASTRA-sim contributors. Used as the reference simulator for
+    replaying CheckWork-generated Chakra traces.
+    See https://astra-sim.github.io/ and https://github.com/astra-sim/astra-sim.
+
+The CheckWork paper has been published as:
+
+  Eldar Hasanov, Adel Sefiane, Alireza Farshin, and Marios Kogias.
+  "CheckWork: Enabling Trace-Driven Analysis of Checkpointing Overhead in
+  Distributed ML Training." In Proceedings of the 10th Asia-Pacific Workshop
+  on Networking (APNet '26), Singapore. ACM, 2026.
+
+This work was supported by the European Union EMPOWER-6G and FLECON-6G
+Doctoral Networks under Grant Agreement No 101120332 and 101192462.

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and builds
+chakra_env/
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# External repositories, cloned separately
+astra-sim/
+param/
+HolisticTraceAnalysis/
+
+# Generated traces and temporary workload specs
+CheckWork/output/
+CheckWork/_*.yaml
+CheckWork/_*.yml
+experiment/*/traces/
+
+# Simulator logs and generated plots
+experiment/*/results/timeline_logs/
+experiment/*/results/plots/
+experiment/*/results/*.log
+*.log
+
+# OS/editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea/
+.vscode/
+*.swp
+*~

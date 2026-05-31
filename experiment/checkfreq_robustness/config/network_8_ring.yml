@@ -1,0 +1,6 @@
+# 8 NPUs, Ring topology (non-FullyConnected) for topology sensitivity in robustness study.
+# Mid bandwidth so checkpoint vs training traffic is not trivially saturated.
+topology: [ Ring ]
+npus_count: [ 8 ]
+bandwidth: [ 200 ]
+latency: [ 200.0 ]

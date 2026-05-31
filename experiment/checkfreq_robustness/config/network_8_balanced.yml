@@ -1,0 +1,5 @@
+# 8 NPUs, FullyConnected — super low latency, high BW so comm and compute are balanced
+topology: [ FullyConnected ]
+npus_count: [ 8 ]
+bandwidth: [ 10000 ]
+latency: [ 1.0 ]
